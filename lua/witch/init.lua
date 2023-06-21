@@ -7,6 +7,12 @@ end
 
 function Witch.mappings()
   return {
+    ['zenbones'] = {
+      name = "ayu",
+      variants = { "dark", "light" },
+      mode = "global_variable",
+      variable = "ayucolor"
+    },
     ['ayu'] = {
       name = "ayu",
       variants = { "mirage", "dark", "light" },
